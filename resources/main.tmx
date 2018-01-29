@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.0" orientation="orthogonal" renderorder="right-down" width="192" height="108" tilewidth="10" tileheight="10" infinite="0" nextobjectid="17">
+ <imagelayer name="Background">
+  <image source="bg.jpg" width="1920" height="1080"/>
+ </imagelayer>
+ <objectgroup name="Scene">
+  <object id="10" name="left_wall" type="wall" x="0" y="0" width="20" height="1080"/>
+  <object id="11" name="right_wall" type="wall" x="1900" y="0" width="20" height="1080"/>
+  <object id="12" name="top_wall" type="wall" x="20" y="0" width="1880" height="20"/>
+  <object id="13" name="bottom_wall" type="wall" x="20" y="1060" width="1880" height="20"/>
+  <object id="14" name="player_paddle" type="paddle" x="70" y="420" width="20" height="200"/>
+  <object id="15" name="ai_paddle" type="paddle" x="1830" y="450" width="20" height="200"/>
+  <object id="16" name="ball" type="ball" x="920" y="490" width="32" height="32">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

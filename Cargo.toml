@@ -1,0 +1,12 @@
+[package]
+authors = ["TatriX <tatrics@gmail.com>"]
+name = "pong"
+version = "0.1.0"
+
+[dependencies]
+ggez = "0.4.0"
+ncollide = "0.13.0"
+# tiled = "0.7.3"
+tiled = { path = "../rs-tiled" }
+lerp = "0.2.0"
+nphysics2d = "0.7.2"
